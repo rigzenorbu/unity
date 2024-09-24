@@ -1,0 +1,4813 @@
+fileFormatVersion: 2
+guid: 94ff41054ef679744b1535c012150912
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1322
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5c2051d4affc14a8a3896babe90c23
+      internalID: 33252960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1322
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca23d6057871dc44adb1b3dce174419
+      internalID: -1200670746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1322
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7a2de7c0a66da4786c3ac4c50f96a9
+      internalID: -1419966541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1322
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df0555ed5b296f4a891b9791eac73ac
+      internalID: 267210147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1322
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19f7f886c5dade4498ba7ca6624e663
+      internalID: -1477690442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1322
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306db3362d120fa4ea7a80ae54e55aee
+      internalID: -65206634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_6
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1322
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf14e6742767d04bbe992b95d614aeb
+      internalID: 1556662292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1322
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1a66c63a67c1a41988e6ba9d1f7f39
+      internalID: -1888259089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1271
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4846ba112793d142b95bb9375c83d9a
+      internalID: 672960978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1271
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973abd2c10729324aa58349a2006a10b
+      internalID: -52593692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1271
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243c5b3ad05de3541b88a51c929f914c
+      internalID: 652587195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1271
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c7fff6599c7fb41884542e2abfb060
+      internalID: 312232620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_12
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1271
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f97324abdb9b64d9b66d816f5546d6
+      internalID: -1474778654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_13
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1271
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22b1cc7eb33b5444a89692e5dca2bfa
+      internalID: 1305043113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1271
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9c03f59804001489d2cbecf2b9b855
+      internalID: -602026253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_15
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1271
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe9c167e48f1fd4cbb01ed2b9e94637
+      internalID: 123918380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_16
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1271
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b58bd2b61993cb4e8603af778ccb6cc
+      internalID: -455301123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_17
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1271
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7559d61ebd259214d98d118a62e96d64
+      internalID: 1104115887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_18
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1271
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e396b9f0e4641494f92dd9a6dcdd03ba
+      internalID: 507949734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1220
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a288e8a5975f11a448053b3d7c0610e1
+      internalID: -1148115560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_20
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1220
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6ee662530c97e4fb48c6b8ad042ae2
+      internalID: -162275980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_21
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1220
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13b86dbe6402b74e9fc978008d39fa2
+      internalID: 1166664938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1220
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18abc90382f6d314e9f46ee1511b087e
+      internalID: -1982448282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_23
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1220
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a495c12c362f4fa439469b475d8c737e
+      internalID: 563474163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_24
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1220
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4937bd814c662a469734781ab54c3d4
+      internalID: 2098443907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1169
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d89524168747094a9d10a514e98aa8c
+      internalID: 2080270483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_26
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1169
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82879a667b1bb264392c74ae1413e401
+      internalID: 583570529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_27
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1169
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3000876d7717db246a2ad1d8af81d150
+      internalID: 1812047940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_28
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1169
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a545f42972f6d6c4e8fbb59b089f747d
+      internalID: 140789043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_29
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1169
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b447a396adc414591d0d8f7fb55618
+      internalID: -1272174905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_30
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1169
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce7999138ce2e94b815d3ee0327460b
+      internalID: 1142353153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_31
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1169
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7bfec6100f39c43b82c206bd8fe453
+      internalID: -273503458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_32
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1169
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4709ff6868c32954a8f60c53588e2dd4
+      internalID: -158341579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_33
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1169
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a3a37dd5fbf2041ad5489e869e37f2
+      internalID: 1631039417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1118
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25801e1f08f1fcf41933f1507ecf489b
+      internalID: -919603216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_35
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1118
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff1bb27e47584449b9653d708236fc5
+      internalID: -1820809529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_36
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1118
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a82884da682a9c4ca3407b945edeea2
+      internalID: 1518503187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_37
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1118
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfefad6227a49b547b888d62f83b8b29
+      internalID: -1727948617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_38
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1118
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5a9ac5b794838429d3ea3ec318ea9c
+      internalID: 519947859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_39
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1118
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d21e6b50aef15d43b24a884d1da0179
+      internalID: -413250336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_40
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1118
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4396b839c1f56b42b2df2947928d77f
+      internalID: 1650353661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_41
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1118
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1141f75f005098b4e879db6b646f5b22
+      internalID: -409975411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_42
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1118
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bcffe2c839c074c91bbc4c55408ff6
+      internalID: 808428735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1067
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3234bea2b20b849b8d5997114f35db
+      internalID: -1120419529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_44
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1067
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5605a159937974d9853bd02b0bfb25
+      internalID: -1370217718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_45
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1067
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb3a1c78154b7a47810e2bb7196388e
+      internalID: -1247379048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_46
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1067
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e141fec31ee0c4aa434ff6c2fd1679
+      internalID: 1933784144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_47
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1067
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0910f9b16c1684c8739591a9db513a
+      internalID: -726367536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_48
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1067
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0825104a60617345ac85fd21b48a0af
+      internalID: 677538693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_49
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1067
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748d7e166aebca941baa0a6d35469ecf
+      internalID: -2117358629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_50
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1067
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c836f06da31f14a9f2aa818f22def0
+      internalID: -841981573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_51
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1067
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857f1b5f227417647b4a7f900cd85a3b
+      internalID: -1501026911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_52
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1067
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e71056798030da49afe9b326ee4abac
+      internalID: -1353537034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1016
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30761bc4797bb8429c1c51430dad8d6
+      internalID: -1810793764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_54
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1016
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5fe455f78554943ab2532681a81c75
+      internalID: 556337846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_55
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1016
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566b1e33980dbb34daf9686c5f6721d2
+      internalID: -2053168108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_56
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1016
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e941545c6e65d428b1cf7de66035ff
+      internalID: 384669117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_57
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1016
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab99170c9f644874f97b8ddd51eac030
+      internalID: -1049852987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_58
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1016
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5cb70bb3aca2048acdbe67ae00ea92
+      internalID: -1932388088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_59
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1016
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab56f0fb481a48845833c96f89c70d9c
+      internalID: -222664793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_60
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1016
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ed212c1200a674692bee441ef5633e
+      internalID: 730722681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_61
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1016
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6551efa60e1c3e949bd1f739e9571510
+      internalID: -2063386227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_62
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1016
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35911c2d9232ba744bf0f4c77c40f2d9
+      internalID: 737236173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 965
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa99286c92e26864799f91984be4d601
+      internalID: -2008783988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_64
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 965
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881fb2bf3eca7e846bd2e0965b9b7b68
+      internalID: -963955120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_65
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 965
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ce210cc0d6bba49b8eaeae4cef6748
+      internalID: -1249165477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_66
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 965
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e979a5a55130f604d8659a3033dcf0ad
+      internalID: 466337921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_67
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 965
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e441b0c26dd50224882148538b34a87e
+      internalID: 1442142640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_68
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 965
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9c0e893a3f4f64db13df87d13d3127
+      internalID: -1077324363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_69
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 965
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a8e003dad453142b3e64220aa0a5fd
+      internalID: 1506348250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_70
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 965
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3995252fc29c641a67cd21bada488c
+      internalID: 1342432083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_71
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 965
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454f7373666796840b7ba7369a9ca2c7
+      internalID: 2014768939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 914
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8b53e94b6736c4f8d8c36459ef5039
+      internalID: -25134791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_73
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 914
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2222a8d5d7f0e45439457f77360d4081
+      internalID: 1388752139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_74
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 914
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30295907b4bd8e548a8e32fe00142257
+      internalID: -1481490108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_75
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 914
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd536303887b284aa302d4edef2425f
+      internalID: -1980826054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_76
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 914
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b1a890d45f1154cbc1e7246cb277cc
+      internalID: -1285210702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_77
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 914
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7b490472142ce4fa58b79454e51eca
+      internalID: -1977965754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_78
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 914
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3650b5937583b4693d32189739be5e
+      internalID: -1601599731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_79
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 914
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140ed159743c05142bead863d01ffc96
+      internalID: -806038787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_80
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 914
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28021eca534b1474185a0e17564e4ab5
+      internalID: -894991585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_81
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 914
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b041cedf9531e8a42822cb7604882bbe
+      internalID: -430466452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 863
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2c7f0fd27754b4f938cee317dfb864
+      internalID: 945316313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_83
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 863
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f63240de2cb2164f99fc152b8b1917f
+      internalID: 531445508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_84
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 863
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ba3c93626385b43855e15cb68846f3
+      internalID: 1103970803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_85
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 863
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8723266d4b4e20469884066153efb1f
+      internalID: -1508181619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_86
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 863
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4890d8dcc823148aa4f11db8dd6140
+      internalID: 2063886174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_87
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 863
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262ac622f63106b40a77202a3c1738f4
+      internalID: 2108563902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_88
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 863
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49ed0f414753bd40aea6326ec5b02a6
+      internalID: 826042064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_89
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 863
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eae47f73136c2640983ee3a3d0f8278
+      internalID: -672489700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_90
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 863
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09584ce7280f870458fdef24f32cc1e6
+      internalID: 1686571228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_91
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 863
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f588e380c9ced7841aeaffcf1b5f444d
+      internalID: -951508853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 812
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b85756c1cd08344485b3e6607321069
+      internalID: -1451029954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_93
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 812
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ba54dd879a82c4abcec47effa7744a
+      internalID: 987906562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_94
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 812
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b329c6624a2884c8bc276380c1dd3f
+      internalID: -1965210465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_95
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 812
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881b838ab747c9c4dbedf863802bdd80
+      internalID: -273265462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_96
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 812
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0908810cd70eb2143971bf440324748a
+      internalID: 17886370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_97
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 812
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b431c7eb43a6b24787e228d4e515ae3
+      internalID: 1635671243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_98
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 812
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd6e9e59eb842e4fafb9c07d3c4bd4c
+      internalID: -1573776810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_99
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 812
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5170f7d1830712e458fefd9e8ec4b090
+      internalID: 1096179128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_100
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 812
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03f80b3ab8238c41961edb22eb2cada
+      internalID: 1204718658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_101
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 812
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426213956ff2e9d498bcc8cfe0cc316c
+      internalID: -1788025831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 761
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07dee972480b1f40be1694b8d389eca
+      internalID: -1869911413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_103
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 761
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11f89d14a5c8004ab3a59ff47593f06
+      internalID: -1544586413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_104
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 761
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1ec2e95c394f14fafb892b2ab4cc1b
+      internalID: -231608748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_105
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 761
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a8c8a51fec1644d914d64ba2a3cae3
+      internalID: -1919683014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_106
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 761
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4161c620920bded42bc089af36cd20ec
+      internalID: -159980324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_107
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 761
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7934c358b49528e439d859794009d475
+      internalID: 556269395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_108
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 761
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6346e42822f66e5489a611430ff7db8f
+      internalID: 1987687700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_109
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 761
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fdfd2d2919c1c48b609ca209985638
+      internalID: 1754168560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_110
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 761
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb36f45a933f0e4fa8f5bb97d576603
+      internalID: -1226472782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 710
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84f2b432758da84f8cee72795d4e451
+      internalID: -1431866980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_112
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 710
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4935419e5e5cbe143b734d1ff60c2142
+      internalID: 1617089577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_113
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 710
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b213c214705b084a862763d7bb746d3
+      internalID: -319712840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_114
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 710
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b92ae5ea442ff409f8ebe6af270f32
+      internalID: 2001086648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_115
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 710
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7382bc659c7761747a3312bd02b36cb1
+      internalID: 706375097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_116
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 710
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3bfb3603fbabe41ace780c154e8a1e
+      internalID: 2017377470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_117
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 710
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ab09640f4bc1842a682d3a21365845
+      internalID: -138382716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_118
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 710
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d55529971cfb404b8992a71f266b1fc
+      internalID: 402985154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_119
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 710
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc5c134ac0b25a449698bc139cb5ee8
+      internalID: 661150268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_120
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 710
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f1ab707ec15b94a807731213667865
+      internalID: 944943876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_121
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 710
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c980d924495d7df489171f89d974e4f4
+      internalID: -1659861475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 659
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd73f13de86ad564b94e58757e8270fd
+      internalID: 940669417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_123
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 659
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ba884d4cfbcd64a9a068f4f1dd2139
+      internalID: 37251619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_124
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 659
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12f21e60a8a0a14caebc997dea3c69d
+      internalID: -1203277641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_125
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 659
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ec99af61bf21f4cbaae79126a9e894
+      internalID: 899222444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_126
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 659
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f22962f925f644586c27b2e6dfaf4e
+      internalID: 144113904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_127
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 659
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d66d18d3a4f22546a877211de663fc6
+      internalID: -1858318249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_128
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 659
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3014b827dfea836498b2534f5ad36626
+      internalID: -162084998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_129
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 659
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b053fae78a3c9244b91081b7a201b2d7
+      internalID: -311141686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_130
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 659
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43438706a9df6a84c987d14264c84306
+      internalID: -1228970700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_131
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 659
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e2b059cf783564f9590d449c93faca
+      internalID: 1242633027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_132
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 659
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f1d86ce80bf5c4fafe720a936c7026
+      internalID: 612282699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cf25521d860f54584edf346e7ff0bb
+      internalID: -1824881574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_134
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 608
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bab050cd7453bc4fb9e22da5a292743
+      internalID: -129848676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_135
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 608
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a1ecb5c9ae3bc448dc042e73af488f
+      internalID: 1015760978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_136
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 608
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17b79c658f69564f9a0bbedf55defb4
+      internalID: -292076485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_137
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 608
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791b1ae1ef86a294690401234ed28895
+      internalID: 1823027327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_138
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 608
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f999905a0b14e341902b79259a23559
+      internalID: -1943209827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_139
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 608
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6981d71f328f61e419a36b5ce3099329
+      internalID: -1567760938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_140
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 608
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9454ea65d3c2bd458caf638b1d06ebe
+      internalID: -1578267171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_141
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 608
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7830baf517fa04f9ef2831017c6bc6
+      internalID: -923831333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_142
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 608
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6a193059a016247943b810430722cb
+      internalID: -998864453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 557
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb85e1bd9d073942a8cfb1959915291
+      internalID: 704735089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_144
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 557
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7ca28ee38e6ac41b5746a128cb5cce
+      internalID: 586062152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_145
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 557
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77c726a40d55154b9783f231affe7bc
+      internalID: 1473152204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_146
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 557
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c0dc397f79b9749ab4e1b7f3c993b4
+      internalID: 1871742456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_147
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 557
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ee17a7d60f61847a90028ca0b7e81b
+      internalID: -346949737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_148
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 557
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bec4f49aa5fb714394cace5fa3851d4
+      internalID: 229141538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_149
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 557
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8bcec44c66f2749a1275850b703c12
+      internalID: 100041019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_150
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 557
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d0ee7012d710e4ca3d6252527c114b
+      internalID: 1485636218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_151
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 557
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440f5134ce9b64244b2c5a6c10e4c8bc
+      internalID: -1418655331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_152
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 557
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941484376bc3c414bbb7a4afb7e5194f
+      internalID: -480859753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_153
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 557
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f2dcec17569b7438518f59233e22cc
+      internalID: -762645258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 506
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106316a3d3ae2be43ad0088f2e1ffbf2
+      internalID: 1952157013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_155
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 506
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d84b8fbd2c7b66439f0df41f3f1cf57
+      internalID: -1369298383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_156
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 506
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a410f35925b05664ba96e686d79f241b
+      internalID: 998399554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_157
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 506
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a963dbc2e3a974a828f1716bf27d17
+      internalID: 1063191053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_158
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 506
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e5f46bda76d7442a47e00767595b31
+      internalID: 1930050381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_159
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 506
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32dfbe2511c6ee44a4add207debc425
+      internalID: -897856875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_160
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 506
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b13c24cfbc6f67409566383b0557c40
+      internalID: -1789599108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_161
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 506
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd465f1589d6c348983e5909115b428
+      internalID: -167507623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_162
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 506
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768abc86fe0aa484ba318038cb66edf5
+      internalID: 701337119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_163
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 506
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d4dcf5b23fc8140a839e5247f473cd
+      internalID: 1110231254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_164
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 506
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6442a2d0647e38841bdd5c6ce88d1a90
+      internalID: 1777021387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 455
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9155989719068fd4daa4ba89cbd61fdb
+      internalID: -809121303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_166
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 455
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1610eaf46bfbf14c89b155ea0b77b2f
+      internalID: 941548928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_167
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 455
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490a1c630feba004e829b5b92d85debe
+      internalID: -855761744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_168
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 455
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c90175e8d247c4a85729e05f08a893
+      internalID: -1300902244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_169
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 455
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64da9f663ddb1a4ab5098a8c9de5f72
+      internalID: -629574865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_170
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 455
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8fe4111335ec84cb7dec02cedc58ca
+      internalID: 719608426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_171
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 455
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf718a16e3b4974f995c777f00d3f56
+      internalID: -1239246803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_172
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 455
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a5595637733d64395a2116087c9968
+      internalID: 1256929849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_173
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 455
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1214368a70d8134abc1a67f9a36d720
+      internalID: -848473347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_174
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 455
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a6f6fa46fd5b24e927ef2946e89f7e
+      internalID: 1477683153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_175
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 455
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2718345c8fa243d48a115c26ee584169
+      internalID: -1028944812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8095f336874f83a4fa20f9816a704970
+      internalID: 1305429077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_177
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 404
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3e4b20525bb2044855fe7c851ce89d
+      internalID: 2031457271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_178
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 404
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be830ae332093f049a0dda5ca05436ac
+      internalID: 532172667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_179
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 404
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0676ae07d387449439e500eaffcd578a
+      internalID: -605394723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_180
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 404
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc05847a4209e74ebb38e854123353a
+      internalID: -1885070621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_181
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 404
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df823d1837d74ff4a88aa7b97a8d571c
+      internalID: 1855596079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_182
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 404
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df301c887e5da854387a30ac289bd0fc
+      internalID: -1924491805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_183
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 353
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8284f3ac1bba394bb8fc8ba76504048
+      internalID: 1267053720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_184
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 353
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4f285cb1a22ef4fa9c983c31125e61
+      internalID: -1067525503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_185
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 353
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e543f33e300574398776739443ad38
+      internalID: 1738463791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_186
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 353
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e01480a5269d18488f3cce556742270
+      internalID: 1584939668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_187
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 353
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3262b68c938304b9b8a2cf4b1194ca
+      internalID: -671319908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_188
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 353
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15503218f50cf2849b6900b48091507d
+      internalID: 1807307919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_189
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 353
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3ed80c096861b4b8792a8a481dcfb4
+      internalID: 1696162383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_190
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 353
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e72bdd89a885d4aac1da7e0523ae9e
+      internalID: 1445714567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_191
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 353
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbf4d76e1a94f54fb0cea24cbde1f3f
+      internalID: -1258457811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_192
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 353
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e98df7ccba5f7469c11b55c2ed0ce7
+      internalID: -1370189891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_193
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 353
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a7155060ffebc4a895ea7d9a6886aa
+      internalID: -706693219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_194
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95ae42a47ae1814989f0590bd08ce7c
+      internalID: -171778053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_195
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 302
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaf70efda78e264391b3d9e4cb3f447
+      internalID: 170649998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_196
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 302
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cc29e1fe26ec44899019f3441025f1
+      internalID: 1235501547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_197
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 302
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff75c19a3dac5f459824173c1b24692
+      internalID: -1640310928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_198
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 302
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a80c230f1aaa5f4fa9617f8974b5c00
+      internalID: -1604143354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_199
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 302
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7899f927292c11640bc5d647231253f5
+      internalID: -1588452365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_200
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 302
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1493cb78aa6855744b846c3ae9eccf15
+      internalID: 1966520285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_201
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 302
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd866a763741ab4ba4b386a937dd4f1
+      internalID: 1986622697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_202
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 302
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ca12de591a855418fcd2e2ce774d2e
+      internalID: -1139884827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_203
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 251
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89efdfca29b9ee24192b396c077db0e8
+      internalID: 593315303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_204
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 251
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4797f8dcda39594a9f51cbb373f00e2
+      internalID: -2033556319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_205
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 251
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45d79c461122fd4a8a181214f737003
+      internalID: 1421432145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_206
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 251
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e00fd85bfc48ec4eb04d3084a621d4a
+      internalID: -1262881598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_207
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 251
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef246bb4a72948a4ab5dd968345dde18
+      internalID: -1322774243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_208
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 251
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcb4692ad805214ea828f6bf8d2a4e5
+      internalID: -1534024428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_209
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 251
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b1278a90ed6424c8d1663982ab5d21
+      internalID: 1123724172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_210
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 251
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d48fb5fd053feb44862e924596e0b9e
+      internalID: 111090641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_211
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 200
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0994150b7baac1a4bb393a392202ce61
+      internalID: -571508318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_212
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 200
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082ac882e92fd3849ab1d51e8dcc499e
+      internalID: -1907489989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy_0: 33252960
+      enemy_1: -1200670746
+      enemy_10: 652587195
+      enemy_100: 1204718658
+      enemy_101: -1788025831
+      enemy_102: -1869911413
+      enemy_103: -1544586413
+      enemy_104: -231608748
+      enemy_105: -1919683014
+      enemy_106: -159980324
+      enemy_107: 556269395
+      enemy_108: 1987687700
+      enemy_109: 1754168560
+      enemy_11: 312232620
+      enemy_110: -1226472782
+      enemy_111: -1431866980
+      enemy_112: 1617089577
+      enemy_113: -319712840
+      enemy_114: 2001086648
+      enemy_115: 706375097
+      enemy_116: 2017377470
+      enemy_117: -138382716
+      enemy_118: 402985154
+      enemy_119: 661150268
+      enemy_12: -1474778654
+      enemy_120: 944943876
+      enemy_121: -1659861475
+      enemy_122: 940669417
+      enemy_123: 37251619
+      enemy_124: -1203277641
+      enemy_125: 899222444
+      enemy_126: 144113904
+      enemy_127: -1858318249
+      enemy_128: -162084998
+      enemy_129: -311141686
+      enemy_13: 1305043113
+      enemy_130: -1228970700
+      enemy_131: 1242633027
+      enemy_132: 612282699
+      enemy_133: -1824881574
+      enemy_134: -129848676
+      enemy_135: 1015760978
+      enemy_136: -292076485
+      enemy_137: 1823027327
+      enemy_138: -1943209827
+      enemy_139: -1567760938
+      enemy_14: -602026253
+      enemy_140: -1578267171
+      enemy_141: -923831333
+      enemy_142: -998864453
+      enemy_143: 704735089
+      enemy_144: 586062152
+      enemy_145: 1473152204
+      enemy_146: 1871742456
+      enemy_147: -346949737
+      enemy_148: 229141538
+      enemy_149: 100041019
+      enemy_15: 123918380
+      enemy_150: 1485636218
+      enemy_151: -1418655331
+      enemy_152: -480859753
+      enemy_153: -762645258
+      enemy_154: 1952157013
+      enemy_155: -1369298383
+      enemy_156: 998399554
+      enemy_157: 1063191053
+      enemy_158: 1930050381
+      enemy_159: -897856875
+      enemy_16: -455301123
+      enemy_160: -1789599108
+      enemy_161: -167507623
+      enemy_162: 701337119
+      enemy_163: 1110231254
+      enemy_164: 1777021387
+      enemy_165: -809121303
+      enemy_166: 941548928
+      enemy_167: -855761744
+      enemy_168: -1300902244
+      enemy_169: -629574865
+      enemy_17: 1104115887
+      enemy_170: 719608426
+      enemy_171: -1239246803
+      enemy_172: 1256929849
+      enemy_173: -848473347
+      enemy_174: 1477683153
+      enemy_175: -1028944812
+      enemy_176: 1305429077
+      enemy_177: 2031457271
+      enemy_178: 532172667
+      enemy_179: -605394723
+      enemy_18: 507949734
+      enemy_180: -1885070621
+      enemy_181: 1855596079
+      enemy_182: -1924491805
+      enemy_183: 1267053720
+      enemy_184: -1067525503
+      enemy_185: 1738463791
+      enemy_186: 1584939668
+      enemy_187: -671319908
+      enemy_188: 1807307919
+      enemy_189: 1696162383
+      enemy_19: -1148115560
+      enemy_190: 1445714567
+      enemy_191: -1258457811
+      enemy_192: -1370189891
+      enemy_193: -706693219
+      enemy_194: -171778053
+      enemy_195: 170649998
+      enemy_196: 1235501547
+      enemy_197: -1640310928
+      enemy_198: -1604143354
+      enemy_199: -1588452365
+      enemy_2: -1419966541
+      enemy_20: -162275980
+      enemy_200: 1966520285
+      enemy_201: 1986622697
+      enemy_202: -1139884827
+      enemy_203: 593315303
+      enemy_204: -2033556319
+      enemy_205: 1421432145
+      enemy_206: -1262881598
+      enemy_207: -1322774243
+      enemy_208: -1534024428
+      enemy_209: 1123724172
+      enemy_21: 1166664938
+      enemy_210: 111090641
+      enemy_211: -571508318
+      enemy_212: -1907489989
+      enemy_22: -1982448282
+      enemy_23: 563474163
+      enemy_24: 2098443907
+      enemy_25: 2080270483
+      enemy_26: 583570529
+      enemy_27: 1812047940
+      enemy_28: 140789043
+      enemy_29: -1272174905
+      enemy_3: 267210147
+      enemy_30: 1142353153
+      enemy_31: -273503458
+      enemy_32: -158341579
+      enemy_33: 1631039417
+      enemy_34: -919603216
+      enemy_35: -1820809529
+      enemy_36: 1518503187
+      enemy_37: -1727948617
+      enemy_38: 519947859
+      enemy_39: -413250336
+      enemy_4: -1477690442
+      enemy_40: 1650353661
+      enemy_41: -409975411
+      enemy_42: 808428735
+      enemy_43: -1120419529
+      enemy_44: -1370217718
+      enemy_45: -1247379048
+      enemy_46: 1933784144
+      enemy_47: -726367536
+      enemy_48: 677538693
+      enemy_49: -2117358629
+      enemy_5: -65206634
+      enemy_50: -841981573
+      enemy_51: -1501026911
+      enemy_52: -1353537034
+      enemy_53: -1810793764
+      enemy_54: 556337846
+      enemy_55: -2053168108
+      enemy_56: 384669117
+      enemy_57: -1049852987
+      enemy_58: -1932388088
+      enemy_59: -222664793
+      enemy_6: 1556662292
+      enemy_60: 730722681
+      enemy_61: -2063386227
+      enemy_62: 737236173
+      enemy_63: -2008783988
+      enemy_64: -963955120
+      enemy_65: -1249165477
+      enemy_66: 466337921
+      enemy_67: 1442142640
+      enemy_68: -1077324363
+      enemy_69: 1506348250
+      enemy_7: -1888259089
+      enemy_70: 1342432083
+      enemy_71: 2014768939
+      enemy_72: -25134791
+      enemy_73: 1388752139
+      enemy_74: -1481490108
+      enemy_75: -1980826054
+      enemy_76: -1285210702
+      enemy_77: -1977965754
+      enemy_78: -1601599731
+      enemy_79: -806038787
+      enemy_8: 672960978
+      enemy_80: -894991585
+      enemy_81: -430466452
+      enemy_82: 945316313
+      enemy_83: 531445508
+      enemy_84: 1103970803
+      enemy_85: -1508181619
+      enemy_86: 2063886174
+      enemy_87: 2108563902
+      enemy_88: 826042064
+      enemy_89: -672489700
+      enemy_9: -52593692
+      enemy_90: 1686571228
+      enemy_91: -951508853
+      enemy_92: -1451029954
+      enemy_93: 987906562
+      enemy_94: -1965210465
+      enemy_95: -273265462
+      enemy_96: 17886370
+      enemy_97: 1635671243
+      enemy_98: -1573776810
+      enemy_99: 1096179128
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

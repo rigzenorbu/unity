@@ -2,22 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerBullet : MonoBehaviour
+public class bullet : MonoBehaviour
 {
-    public int damage = 20;  // Damage dealt to the enemy
+    // Speed of the bullet
+    public float speed = 20f;
+    public int damage = 20;
+    
+    // Rigidbody2D of the bullet
+    public Rigidbody2D rb;
 
-    // Method that gets called when the bullet hits a trigger
-    private void OnTriggerEnter2D(Collider2D hitInfo)
+   
+
+    void Start()
     {
-        // Check if the object hit has an EnemyController component
-        EnemyController enemy = hitInfo.GetComponent<EnemyController>();
-        if (enemy != null)
+       
+        
+        // Apply velocity to the Rigidbody2D
+        rb.velocity = transform.right * speed;
+    }
+    void OnTriggerEnter2D(Collider2D hitInfo)
+    {
+        
+        enemystatus enemy =  hitInfo.GetComponent<enemystatus>();
+        if(enemy!=null)
         {
-            enemy.TakeDamage(damage);  // Apply damage to the enemy
-            Destroy(gameObject);  // Destroy the bullet after hitting the enemy
+            enemy.TakeDamage(damage);
         }
-
-        // Destroy the bullet if it hits anything else (optional)
         Destroy(gameObject);
     }
-}
+} 

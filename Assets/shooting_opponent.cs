@@ -13,7 +13,6 @@ public class ShootingEnemy : MonoBehaviour
     public Transform player; // Reference to the player
 
     private Vector3 startPosition; // The starting position of the enemy
-    private float moveDirection = 1f; // Direction to move
 
     void Start()
     {

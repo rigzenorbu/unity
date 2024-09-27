@@ -5,6 +5,15 @@ using UnityEngine;
 public class enemystatus : MonoBehaviour
 {
     public int health = 100;
+    public int scoreValue = 10; // The amount of score to give when this enemy is killed
+
+    private NewBehaviourScript playerScript; // Reference to the player script
+
+    void Start()
+    {
+        // Find the player script (assuming the player has the tag "Player")
+        playerScript = GameObject.FindWithTag("Player").GetComponent<NewBehaviourScript>();
+    }
 
     // This function is called to apply damage to the enemy
     public void TakeDamage(int damage)
@@ -19,6 +28,9 @@ public class enemystatus : MonoBehaviour
     // This function handles the enemy's death
     void Die()
     {
+        // Increase the player's score when the enemy dies
+        playerScript.IncreaseScore(scoreValue);
+
         // Create a simple death effect (e.g., a basic particle effect)
         GameObject deathEffect = new GameObject("DeathEffect"); // Create an empty GameObject
         ParticleSystem ps = deathEffect.AddComponent<ParticleSystem>(); // Add a Particle System component
@@ -30,12 +42,11 @@ public class enemystatus : MonoBehaviour
         main.startSpeed = 5f;       // Speed of particles
 
         // Additional particle system settings can be configured here
-
         ps.Play(); // Start the particle system
 
         // Destroy the GameObject after the effect duration
         Destroy(deathEffect, 1f); // Adjust the time as needed
-        
+
         // Destroy the enemy GameObject
         Destroy(gameObject);
     }

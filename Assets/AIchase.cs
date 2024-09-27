@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class AIchase : MonoBehaviour
 {
-    public GameObject player; // Reference to the player
-    public float speed = 5f;  // Speed of the enemy movement
-    private float distance;   // Distance between enemy and player
-    public float chaseRange = 10f;  // Range within which enemy starts chasing
-    public int health = 100;  // Health of the enemy
+    public GameObject player;         // Reference to the player
+    public float speed = 5f;          // Speed of the enemy movement
+    private float distance;           // Distance between enemy and player
+    public float chaseRange = 10f;    // Range within which enemy starts chasing
+    public int health = 100;          // Health of the enemy
+    public int scoreValue = 20;       // Score to be added when this enemy is killed
+
+    private NewBehaviourScript playerScript; // Reference to the player script
+
+    void Start()
+    {
+        // Find the player script (assuming the player has the tag "Player")
+        playerScript = GameObject.FindWithTag("Player").GetComponent<NewBehaviourScript>();
+    }
 
     void Update()
     {
@@ -24,8 +33,6 @@ public class AIchase : MonoBehaviour
             // Move the enemy towards the player
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
         }
-
-        
     }
 
     // This function handles taking damage from the bullet
@@ -40,7 +47,18 @@ public class AIchase : MonoBehaviour
 
     void Die()
     {
-        // Add death effect if you want
+        // Increase the player's score when the enemy dies
+        if (playerScript != null)
+        {
+            playerScript.IncreaseScore(scoreValue);
+        }
+        else
+        {
+            Debug.LogWarning("Player script not found!");
+        }
+
+        // Add death effect here if needed
+
         Destroy(gameObject);  // Destroy the enemy GameObject
     }
 }

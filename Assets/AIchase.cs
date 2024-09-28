@@ -8,6 +8,12 @@ public class AIchase : MonoBehaviour
     public float speed = 5f;          // Speed of the enemy movement
     private float distance;           // Distance between enemy and player
     public float chaseRange = 10f;    // Range within which enemy starts chasing
+    public float shootRange = 10f;     // Range within which the enemy can shoot
+    public GameObject bullet;          // Reference to the bullet prefab
+    public Transform bulletpos;        // Position where the bullet will be instantiated
+    private float shootTimer;          // Timer to control the shooting interval
+    public float shootInterval = 2f;   // Time between shots
+
     public int health = 100;          // Health of the enemy
     public int scoreValue = 20;       // Score to be added when this enemy is killed
 
@@ -32,7 +38,26 @@ public class AIchase : MonoBehaviour
 
             // Move the enemy towards the player
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+            
+            // Check if the player is within shooting range
+            if (distance <= shootRange)
+            {
+                shootTimer += Time.deltaTime; // Increment shoot timer
+
+                // Check if it's time to shoot
+                if (shootTimer >= shootInterval)
+                {
+                    Shoot(); // Call shoot function
+                    shootTimer = 0; // Reset the timer
+                }
+            }
         }
+    }
+
+    void Shoot()
+    {
+        // Instantiate the bullet at the bullet position with no rotation
+        Instantiate(bullet, bulletpos.position, Quaternion.identity);
     }
 
     // This function handles taking damage from the bullet

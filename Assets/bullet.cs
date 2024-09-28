@@ -34,6 +34,25 @@ public class Bullet : MonoBehaviour
         {
             enemyAI.TakeDamage(damage);
             Destroy(gameObject); // Destroy the bullet after hitting
+            return; // Exit the method to prevent further checks
+        }
+
+        // Check if the hit object has a Shotter component
+        Shotter shotter = hitInfo.GetComponent<Shotter>();
+        if (shotter != null)
+        {
+            shotter.TakeDamage(damage);
+            Destroy(gameObject); // Destroy the bullet after hitting
+            return; // Exit the method to prevent further checks
+        }
+
+        // Check if the hit object has a Shotter_opponent component
+        Shotter_opponent opponentShotter = hitInfo.GetComponent<Shotter_opponent>();
+        if (opponentShotter != null)
+        {
+            opponentShotter.TakeDamage(damage);
+            Destroy(gameObject); // Destroy the bullet after hitting
+            return; // Exit the method to prevent further checks
         }
     }
 }
